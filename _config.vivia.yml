@@ -1,0 +1,74 @@
+# vivia主题配置文件
+menu:
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  About: /about
+
+favicon: /images/favicon.png
+avatar: /avatar.jpg
+
+# 首页设置
+home:
+  style: default # default / detail
+  excerpt: false # 是否在首页显示文章摘要
+  read_more: false # 是否显示阅读更多按钮
+
+# 文章设置
+post:
+  date: true # 显示发布日期
+  updated: false # 显示更新日期
+  category: true # 显示分类
+  tags: true # 显示标签
+  wordcount: false # 显示字数统计
+  min2read: false # 显示阅读时长
+  copyright: true # 显示版权信息
+
+# 侧边栏设置
+sidebar:
+  position: right # left / right
+  display: post # always / post / hide
+  social:
+    GitHub: https://github.com/
+    E-Mail: mailto:your@email.com
+    RSS: /atom.xml
+
+# 代码高亮
+highlight:
+  enable: true
+  line_number: true
+  copy_button: true
+  theme: github # github / github-dark / monokai / monokai-dark
+
+# 评论系统
+comment:
+  enable: false
+  type: # disqus / gitalk / valine / waline
+
+# 分析统计
+analytics:
+  enable: false
+  google: # Google Analytics ID
+  baidu: # 百度统计ID
+
+# 搜索
+search:
+  enable: false
+  path: /search.xml
+  field: all # post / page / all
+
+# 暗色模式
+darkmode:
+  enable: true
+  default: auto # auto / light / dark
+
+# 懒加载
+lazyload:
+  enable: true
+  loading_image: /images/loading.gif
+
+# CDN设置
+cdn:
+  enable: false
+  prefix: # CDN前缀地址
