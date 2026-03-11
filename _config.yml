@@ -61,7 +61,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: vivia  # vivia主题，文件已放在themes/vivia文件夹
+theme: vivia
 archive_generator:
   per_page: 0
 deploy:
